@@ -6,18 +6,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <body>
-            <h1>My magic data picker</h1>
+            
 
 <form  action="/">
 
-<label for="Firstname">Firstname</label>
-  <input id="Firstname" type="text" name="Firstname"/>
-  <label for="Lastname">Lastname</label>
-  <input id="Lastname" type="text" name="Lastname"/>
-  <label for="age">age</label>
-  <input id="age" type="text" name="age"/>
-  <input type="reset" value="kill All" />
-  <input type="submit" value="send" />
+<label>
+  <p> *phone : <input type="text" name="phone"/ required></p> 
+</label>
+
+<label>
+     <p>*E-mail : <input type="email" name="email" required/></p>   
+</label> 
+<label>
+     <p> *Password : <input type="password" name="password" required/></p>  
+</label>
+
+<label>
+        <p> *Confirm password : <input type="password" name="password"required/></p>
+</label>
+
+<label>
+        <p> *Nickname : <input type="text" name="Nickname" required/></p>
+</label>
+
+
+<label aria-required="true">
+        *Habitual Residanse : 
+        <select>
+            <option>Zhejiang</option>
+            <option>Hangzhou</option>
+            <option>West Lake</option>
+        </select>
+</label> 
+
+<label>
+        <p> *Website : <input type="url" name="Website" required/></p>
+</label>
+
+
+
+<p> I have read the : <input type="checkbox" name="Checkbox"/ required> <a href="google.com">argeemant</a></p>
+
+<p><input type="submit" name="send" placeholder="Register"></p>
+
     
 </form>
  
