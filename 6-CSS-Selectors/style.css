@@ -1,6 +1,6 @@
-header h1 
+.first+.item
 {
-    font-size: 23px;
-    color:blue;
-    text-align: center;
+    
+    color:red;
+  
 }
