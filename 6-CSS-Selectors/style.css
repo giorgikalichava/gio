@@ -1,6 +1,3 @@
-.first+.item
-{
-    
-    color:red;
-  
-}
+main > p {
+    color: green;
+  }
