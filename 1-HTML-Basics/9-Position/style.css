@@ -2,32 +2,29 @@
     box-sizing: border-box;
 }
 
-
 .wrap
 {
-    padding: 50px;
-
-}
-.item
-{
     position: relative;
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    margin-right: 30px;
-    background-color: gray;  
-    border-radius: 10px;
+    height: 100px;
+    width: 800px;
+margin: 0 auto;
 }
-.label
+
+.line
 {
     position: absolute;
-    top:-10px;
-    right: 0;
-    transform: translate(50% , 50%);
-    height: 20px;
-    background-color: red;
-    color: white;
-    border: 1px solid;
-    padding: 1px 3px;
-    border-radius: 10px;
+    height: 1px;
+    width: 100%;
+    background-color: grey;
+    top:50%;
+    transform: translateY(-50%)
+}
+.text
+{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 20px;
 }
