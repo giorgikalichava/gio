@@ -1,14 +1,33 @@
  
-.table
+.form
 {
-    display: table;
+    display: inline-block;
+    height: 370px;
+    width: 250px;
+    margin: 3px 5px 5px 20px;
+    background-color: rgb(216, 216, 221);
+    border: solid 1px;
+    border-color: rgb(184, 182, 179);
+    
+
 }
 
-.tr
+.img
 {
-    display: table-row;
+    height: 280px;
+    width: 250px;
+    
 }
-.td
+
+p
 {
-    display: table-cell;
+padding: 2px 20px 10px 20px ;
+
+
+}
+
+a{
+    padding: 2px 20px 10px 20px ;
+   text-decoration: none;
+   color:  grey;
 }
